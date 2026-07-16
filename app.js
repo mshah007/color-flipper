@@ -1,5 +1,5 @@
 let bgcolors=["green","red","blue","yellow","orange","purple","pink","brown","black","white"];
-let btn=document.getElementById("btn");
+let btn=document.querySelector("#btn");
 let body=document.body;
 btn.addEventListener("click",changeColor);
 
